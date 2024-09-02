@@ -24,7 +24,7 @@ public class NotasEscolares {
         if (notas[4]>=7){
             resultado = "aprovado";
         }else{
-            resultado = "reprovado";
+            resultado = "reprovado!";
         }
 
         System.out.println("o aluno(a) "+ aluno + "teve a média "+ notas[4] + "foi "+resultado);
